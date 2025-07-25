@@ -7,7 +7,6 @@ function Show-GroupTree {
         [string]$StartGroup
     )
 
-    $visitedGroups = @{}
     $userPaths = @{}
 
     # Fenster erstellen
